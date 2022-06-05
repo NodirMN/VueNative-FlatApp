@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "icon": "./assets/DefaultIcon.png",
+    "slug": "strapflatapp",
+    "splash": {
+      "resizeMode": "cover",
+      "image": "./assets/splash-screen.png"
+    },
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "vue",
+        "js",
+        "json",
+        "ts",
+        "tsx"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "io.market.nativebase.geekyants.flatappui"
+    },
+    "android": {
+      "package": "io.market.nativebase.geekyants.flatappui"
+    },
+    "androidStatusBarColor": "#01cca1",
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#01cca1"
+    },
+    "name": "vuenativeFlatApp",
+    "version": "1.3.0",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
